@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    margin-top: 50px;
+}
+option{
+    color: darkblue;
+    font-size: 15px;
+}
+option:checked {
+    color: red;
+}
+table{
+    margin-top: 150px;
+    th{
+        background-color: aquamarine;
+        padding: 2px 4px;
+        border: 1px black solid;
+    }
+    td{
+        border: 1px black solid;
+    }
+}
